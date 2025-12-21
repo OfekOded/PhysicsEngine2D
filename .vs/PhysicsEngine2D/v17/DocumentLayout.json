@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\BoxShape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\physics\\shapes\\BoxShape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\physics\\shapes\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\math\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\physics\\math\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vector2.h",
+              "DocumentMoniker": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\math\\Vector2.h",
+              "RelativeDocumentMoniker": "include\\physics\\math\\Vector2.h",
+              "ToolTip": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\math\\Vector2.h",
+              "RelativeToolTip": "include\\physics\\math\\Vector2.h",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-20T18:05:57.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shape.h",
+              "DocumentMoniker": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\Shape.h",
+              "RelativeDocumentMoniker": "include\\physics\\shapes\\Shape.h",
+              "ToolTip": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\Shape.h",
+              "RelativeToolTip": "include\\physics\\shapes\\Shape.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-20T17:55:30.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoxShape.h",
+              "DocumentMoniker": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\BoxShape.h",
+              "RelativeDocumentMoniker": "include\\physics\\shapes\\BoxShape.h",
+              "ToolTip": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\include\\physics\\shapes\\BoxShape.h",
+              "RelativeToolTip": "include\\physics\\shapes\\BoxShape.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-20T17:55:26.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "World.cpp",
+              "DocumentMoniker": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\src\\World.cpp",
+              "RelativeDocumentMoniker": "src\\World.cpp",
+              "ToolTip": "C:\\Users\\ofeko\\OneDrive\\Desktop\\PhysicsEngine2D\\src\\World.cpp",
+              "RelativeToolTip": "src\\World.cpp",
+              "ViewState": "AgIAAEsAAADA39mo72wYwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-20T16:32:59.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
