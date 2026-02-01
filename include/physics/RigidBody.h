@@ -1,10 +1,14 @@
+#pragma once
 #include "math/Vector2.h"
+#include "physics/shapes/Shape.h"
+#include <memory>
 
 class RigidBody {
 private:
 	float mass;
 	float invMass;
-	float radius;
+	std::unique_ptr<Shape> shape;
+	float rotation;
 	Vector2 velocity;
 	Vector2 position;
 	Vector2 force;
@@ -12,7 +16,7 @@ private:
 	float damping;
 	float restitution;
 public:
-	RigidBody(float m, float r, float d = 1.0f, float res = 0.5f);
+	RigidBody(float m, std::unique_ptr<Shape> s, float r, float d = 1.0f, float res = 0.5f);
 
 	void addForce(const Vector2& externalForce);
 
@@ -24,8 +28,6 @@ public:
 
 	float getMass() const;
 
-	float getRadius() const;
-
 	float getInvMass() const;
 
 	const Vector2& getVelocity() const;
@@ -33,4 +35,10 @@ public:
 	void setVelocity(const Vector2& v);
 
 	float getRestitution() const;
+
+	const Shape* getShape() const;
+
+	void setShape(std::unique_ptr<Shape> s);
+
+	float getRotation() const;
 };

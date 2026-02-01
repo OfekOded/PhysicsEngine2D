@@ -1,22 +1,19 @@
-#include "physics\RigidBody.h"
-#include "physics\math\Vector2.h"
+#include "physics/RigidBody.h" 
+#include "physics/math/Vector2.h"
+#include <cmath> 
 
-RigidBody::RigidBody(float m, float r, float d, float res)
+RigidBody::RigidBody(float m, std::unique_ptr<Shape> s, float r, float d, float res)
     : mass(m),
-    radius(r),
-    position(0.0f, 0.0f),
+    invMass(mass == 0.0f ? 0.0f : 1.0f / mass), 
+    shape(std::move(s)),
+    rotation(r),         
     velocity(0.0f, 0.0f),
+    position(0.0f, 0.0f),
     force(0.0f, 0.0f),
     acceleration(0.0f, 0.0f),
     damping(d),
-    restitution(r) {
-    if (mass == 0.0f) {
-        invMass = 0.0f;
-    }
-    else {
-        invMass = 1.0f / mass;
-    }
-}
+    restitution(res)
+{}
 
 void RigidBody::addForce(const Vector2& externalForce) {
     force += externalForce;
@@ -46,11 +43,6 @@ float RigidBody::getMass() const
     return mass;
 }
 
-float RigidBody::getRadius() const
-{
-    return radius;
-}
-
 float RigidBody::getInvMass() const
 {
     return invMass;
@@ -69,6 +61,21 @@ void RigidBody::setVelocity(const Vector2& v)
 float RigidBody::getRestitution() const
 {
     return restitution;
+}
+
+const Shape* RigidBody::getShape() const
+{
+    return shape.get();
+}
+
+void RigidBody::setShape(std::unique_ptr<Shape> s)
+{
+    shape = std::move(s);
+}
+
+float RigidBody::getRotation() const
+{
+    return rotation;
 }
 
 

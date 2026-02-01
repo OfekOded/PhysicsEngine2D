@@ -1,15 +1,27 @@
 #pragma once
 #include "Shape.h"
+#include "physics/math/Vector2.h"
+#include <array>
 
 class BoxShape : public Shape {
 private:
-	float width, height;
+    float halfWidth;
+    float halfHeight;
+
 public:
-	BoxShape(float w, float h) : Shape(ShapeType::Box), width(w), height(h) {}
+    BoxShape(float width, float height)
+        : Shape(ShapeType::Box), halfWidth(width * 0.5f), halfHeight(height * 0.5f) {
+    }
 
-	float getWidth() const { return width; }
-	float getHeight() const { return height; }
+    float getWidth() const { return halfWidth * 2.0f; }
+    float getHeight() const { return halfHeight * 2.0f; }
 
-	void setWidth(float w) { width = w; }
-	void setHeight(float h) { height = h; }
+    void setWidth(float w) { halfWidth = w * 0.5f; }
+    void setHeight(float h) { halfHeight = h * 0.5f; }
+
+    float getHalfWidth() const { return halfWidth; }
+    float getHalfHeight() const { return halfHeight; }
+
+    std::array<Vector2, 4> getTransformedVertices(const Vector2& position, float rotation) const;
+    AABB getAABB(const Vector2& position, float rotation) const override;
 };
